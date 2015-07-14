@@ -220,4 +220,6 @@ module.exports = function (grunt) {
     "jshint",
     "karma",
   ]);
+
+  grunt.registerTask("heroku", ["build"]);
 };
