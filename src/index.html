@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app" ng-cloak>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agi App</title>
+  <!-- build:css(.tmp) styles/app.css -->
+  <link rel="stylesheet" type="text/css" href="styles/vendor.css">
+  <!-- endbuild -->
+</head>
+<body>
+  <header>
+    <h1>Agi app - coming soon.</h1>
+  </header>
+
+  <ui-view></ui-view>
+
+  <!-- build:js(.) vendor.js -->
+  <!-- bower:js -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js(./src) app.js -->
+  <script src="app/app.js"></script>
+  <script src="app/app.config.js"></script>
+
+  <script src="app/home/home.ctrl.js"></script>
+  <!-- endbuild -->
+</body>
+</html>
