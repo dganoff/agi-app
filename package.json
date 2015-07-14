@@ -9,10 +9,10 @@
   "author": "Demetri Ganoff <dganoff@gmail.com> (http://demetridesign.com/)",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.1"
+    "express": "^4.13.1",
+    "bower": "^1.4.1",
   },
   "devDependencies": {
-    "bower": "^1.4.1",
     "grunt": "^0.4.5",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-concat": "^0.5.1",
