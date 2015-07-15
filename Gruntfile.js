@@ -193,6 +193,12 @@ module.exports = function (grunt) {
       tmp: "<%= paths.tmp %>",
       dist: "<%= paths.dist %>",
     },
+
+    "divshot:push": {
+      development: {
+        // options
+      }
+    }
   });
 
   grunt.registerTask("serve", [
