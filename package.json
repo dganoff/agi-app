@@ -10,7 +10,6 @@
   "author": "Demetri Ganoff <dganoff@gmail.com> (http://demetridesign.com/)",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.1"
   },
   "devDependencies": {
     "bower": "^1.4.1",
