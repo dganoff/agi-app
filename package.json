@@ -9,8 +9,7 @@
   },
   "author": "Demetri Ganoff <dganoff@gmail.com> (http://demetridesign.com/)",
   "license": "ISC",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "bower": "^1.4.1",
     "grunt": "^0.4.5",
